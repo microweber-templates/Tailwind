@@ -1,0 +1,30 @@
+{
+    "name": "microweber/tailwind",
+    "description": "",
+    "authors": [
+        {
+            "name": "Microweber",
+            "email": "info@microweber.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Templates\\Tailwind\\": "",
+            "Templates\\Tailwind\\Database\\Factories\\": "database/factories/",
+            "Templates\\Tailwind\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Templates\\Tailwind\\Tests\\": "tests/"
+        }
+    }
+}
