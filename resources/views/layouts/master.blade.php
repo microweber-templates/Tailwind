@@ -19,7 +19,7 @@
     @yield('content')
 
     {{-- Vite JS --}}
-     {{ template_vite('templates/tailwind/dist', 'resources/assets/js/app.js') }}
+     {{ template_vite('templates/tailwind/dist', 'resources/assets/js/theme.js') }}
 
     {!! meta_tags_footer() !!}
 </body>
