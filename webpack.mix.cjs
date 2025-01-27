@@ -14,7 +14,7 @@ mix.webpackConfig({
         children: true
     }
 });
-
+//
 mix
     .js('resources/assets/js/theme.js', 'resources/assets/dist/build')
     .css('resources/assets/css/theme.css', 'resources/assets/dist/build');
@@ -25,3 +25,5 @@ mix.after(() => {
         path.resolve(__dirname, '../../public/templates/tailwind')
     );
 });
+
+
