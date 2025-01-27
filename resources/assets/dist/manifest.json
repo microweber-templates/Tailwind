@@ -1,14 +1,13 @@
 {
-  "resources/assets/js/app.js": {
-    "file": "assets/app2.js",
-    "name": "app",
-    "src": "resources/assets/js/app.js",
+  "resources/assets/css/theme.css": {
+    "file": "assets/theme.css",
+    "src": "resources/assets/css/theme.css",
     "isEntry": true
   },
-  "resources/assets/sass/app.scss": {
-    "file": "assets/app.js",
-    "name": "app",
-    "src": "resources/assets/sass/app.scss",
+  "resources/assets/js/theme.js": {
+    "file": "assets/theme2.js",
+    "name": "theme",
+    "src": "resources/assets/js/theme.js",
     "isEntry": true
   }
 }
