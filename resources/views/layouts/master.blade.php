@@ -10,14 +10,16 @@
     {!! meta_tags_head() !!}
 
     {{-- Vite CSS --}}
-    {{-- {{ template_vite('templates/tailwind/dist', 'resources/assets/sass/app.scss') }} --}}
+     {{ template_vite('templates/tailwind/dist', 'resources/assets/css/theme.css') }}
 </head>
 
 <body class="{!! helper_body_classes() !!}">
+
+
     @yield('content')
 
     {{-- Vite JS --}}
-    {{-- {{ template_vite('templates/tailwind/dist', 'resources/assets/js/app.js') }} --}}
+     {{ template_vite('templates/tailwind/dist', 'resources/assets/js/app.js') }}
 
     {!! meta_tags_footer() !!}
 </body>

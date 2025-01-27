@@ -2,7 +2,7 @@ import {defineConfig} from 'vite';
 import laravel from 'laravel-vite-plugin';
 import {copyFolderSyncVite} from "vite-plugin-copy-folder"
 import path from 'path';
-
+import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
     build: {
@@ -18,10 +18,11 @@ export default defineConfig({
         manifest: "manifest.json",
     },
     plugins: [
+        tailwindcss(),
         laravel({
             input: [
-                __dirname + '/resources/assets/sass/app.scss',
-                __dirname + '/resources/assets/js/app.js'
+                __dirname + '/resources/assets/css/theme.css',
+                __dirname + '/resources/assets/js/theme.js'
             ],
             refresh: true,
         }),
