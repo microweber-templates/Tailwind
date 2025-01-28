@@ -1,6 +1,7 @@
-@import 'tailwindcss';
+@import 'tailwindcss'  source('../../views');
 
 body {
     font-family: 'Nunito', sans-serif;
+
 }
 
