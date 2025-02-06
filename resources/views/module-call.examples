@@ -1,0 +1,41 @@
+
+
+
+
+If you want to add module social links you can use the following code:
+<module type="social_links" />
+if you want to add module social links with specific style you can use the following code:
+<module type="social_links" template="bootstrap4" />
+Template path must look like this:
+YOUR_TEMPLATE/resources/views/modules/social_links/templates/bootstrap4.blade.php
+
+
+
+For powered by link you can call this function:
+{{ powered_by_link() }}
+
+
+
+If you want to add module menu you can use the following code:
+<module type="menu" name="footer_menu" />
+if you want to add module menu with specific style you can use the following code:
+<module type="menu" template="simple" name="footer_menu" />
+Template path
+YOUR_TEMPLATE/resources/views/modules/menu/templates/simple.blade.php
+
+
+
+If you want to add module button you can use the following code:
+<module type="btn" button_style="btn-primary" button_size="btn-lg px-5" text="Call to action" />
+if you want to add module button with specific style you can use the following code:
+<module type="btn" button_style="btn-primary" button_size="btn-lg px-5" text="Call to action" template="tailwind" />
+Template path
+YOUR_TEMPLATE/resources/views/modules/btn/templates/tailwind.blade.php
+
+
+If you want to add module logo you can use the following code:
+<module type="logo" id="footer-logo-{{ $params['id'] }}" />
+if you want to add module logo with specific style you can use the following code:
+<module type="logo" id="footer-logo-{{ $params['id'] }}" template="tailwind" />
+Template path
+YOUR_TEMPLATE/resources/views/modules/logo/templates/tailwind.blade.php
