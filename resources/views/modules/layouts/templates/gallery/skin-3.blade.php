@@ -17,7 +17,7 @@ categories: Gallery
     <module type="spacer" id="spacer-layout--{{ $params['id'] }}-top" />
     <div class="container mx-auto px-4 edit" field="layout-gallery-skin-3-{{ $params['id'] }}" rel="module">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
-            <module type="layout_content" colMdCalculate="3" align="center"/>
+            <module type="layout_content" template="default" colMdCalculate="3" align="center"/>
         </div>
     </div>
     <module type="spacer" id="spacer-layout--{{ $params['id'] }}-bottom" />
