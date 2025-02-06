@@ -12,7 +12,7 @@ categories: Gallery
     $layout_classes .= ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom'] . ' ';
 @endphp
 
-<section class="section {{ $layout_classes }}"> 
+<section class="section {{ $layout_classes }}">
     <module type="background" id="background-layout--{{ $params['id'] }}" />
     <module type="spacer" id="spacer-layout--{{ $params['id'] }}-top" />
     <div class="container mx-auto edit" field="layout-gallery-skin-7-{{ $params['id'] }}" rel="module">
