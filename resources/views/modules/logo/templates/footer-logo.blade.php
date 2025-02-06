@@ -12,5 +12,7 @@ description: Footer logo template
     <?php endif; ?>
     <?php if($logo_text): ?>
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"><?php print $logo_text; ?></span>
+    <?php elseif(!$logo_image): ?>
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Site Logo</span>
     <?php endif; ?>
 </a>
