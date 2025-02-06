@@ -7,9 +7,24 @@
                 <module type="logo" id="footer-logo" template="footer-logo" />
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                <module type="menu" template="footer" name="footer_resources" />
-                <module type="menu" template="footer" name="footer_company" />
-                <module type="menu" template="footer" name="footer_legal" />
+                <div>
+                    <h2 class="edit mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                        Resources
+                    </h2>
+                    <module type="menu" template="footer" name="footer_resources" />
+                </div>
+                <div>
+                    <h2 class="edit mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                        Company
+                    </h2>
+                    <module type="menu" template="footer" name="footer_company" />
+                </div>
+                <div>
+                    <h2 class="edit mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                        Legal
+                    </h2>
+                    <module type="menu" template="footer" name="footer_legal" />
+                </div>
             </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
