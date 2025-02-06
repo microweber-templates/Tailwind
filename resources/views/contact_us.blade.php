@@ -1,4 +1,4 @@
-<?php
+{{--
 
 /*
 
@@ -10,7 +10,7 @@ description: Contact Us
 
 */
 
-?>
+--}}
 @extends('templates.tailwind::layouts.master')
 
 @section('content')

@@ -1,10 +1,10 @@
-<?php
+{{--
 /*
 type: layout
 name: Footer Logo
 description: Footer logo template
 */
-?>
+--}}
 
 <a href="<?php print site_url(); ?>" class="flex items-center">
     <?php if($logo_image): ?>

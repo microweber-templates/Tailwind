@@ -1,10 +1,8 @@
-<?php
-/*
+{{--
 type: layout
 name: Footer Social Links
 description: Footer social links template
-*/
-?>
+--}}
 
 <div class="flex mt-4 sm:justify-center sm:mt-0">
     <?php if($social_links): ?>
