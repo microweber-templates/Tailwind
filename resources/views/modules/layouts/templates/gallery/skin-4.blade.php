@@ -19,7 +19,7 @@ categories: Gallery
         <div class="flex flex-wrap justify-center text-center">
             <div class="w-full sm:w-10/12 md:w-4/12 px-4 mb-8 md:mb-20 py-2 md:py-0 cloneable">
                 <div class="aspect-square overflow-hidden">
-                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/blue/sunset/gallery-1.jpg"/>
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/sunset/gallery-1.jpg"/>
                 </div>
                 <div class="py-2 md:py-4 mt-0 md:mt-auto">
                     <h5 class="mb-2 text-xl font-medium">Image Title</h5>
@@ -29,7 +29,7 @@ categories: Gallery
 
             <div class="w-full sm:w-10/12 md:w-4/12 px-4 mb-8 md:mb-20 py-2 md:py-0 cloneable">
                 <div class="aspect-square overflow-hidden">
-                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/blue/sunset/gallery-2.jpg"/>
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/sunset/gallery-2.jpg"/>
                 </div>
                 <div class="py-2 md:py-4 mt-0 md:mt-auto">
                     <h5 class="mb-2 text-xl font-medium">Image Title</h5>
@@ -39,7 +39,7 @@ categories: Gallery
 
             <div class="w-full sm:w-10/12 md:w-4/12 px-4 mb-8 md:mb-20 py-2 md:py-0 cloneable">
                 <div class="aspect-square overflow-hidden">
-                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/blue/sunset/gallery-3.jpg"/>
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/sunset/gallery-3.jpg"/>
                 </div>
                 <div class="py-2 md:py-4 mt-0 md:mt-auto">
                     <h5 class="mb-2 text-xl font-medium">Image Title</h5>
