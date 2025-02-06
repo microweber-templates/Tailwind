@@ -1,4 +1,4 @@
-{{-- 
+{{--
 type: layout
 name: Gallery 3
 position: 3

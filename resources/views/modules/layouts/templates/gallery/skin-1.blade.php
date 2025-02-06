@@ -1,4 +1,4 @@
-{{-- 
+{{--
 type: layout
 name: Gallery 1
 position: 1
@@ -20,19 +20,19 @@ categories: Gallery
             <div class="w-full lg:w-1/2 flex flex-wrap pr-5 pb-5">
                 <div class="w-1/2 pr-2">
                     <div class="aspect-square overflow-hidden">
-                        <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-2.jpg">
+                        <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-2.jpg">
                     </div>
                 </div>
 
                 <div class="w-1/2 pl-2">
                     <div class="aspect-square overflow-hidden">
-                        <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-3.jpg">
+                        <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-3.jpg">
                     </div>
                 </div>
 
                 <div class="w-full pt-5">
                     <div class="aspect-square overflow-hidden">
-                        <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-1.jpg">
+                        <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-1.jpg">
                     </div>
                 </div>
             </div>
@@ -40,19 +40,19 @@ categories: Gallery
             <div class="w-full lg:w-1/2 flex flex-wrap pr-5 pb-5">
                 <div class="w-full pb-5">
                     <div class="aspect-square overflow-hidden">
-                        <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-4.jpg">
+                        <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-4.jpg">
                     </div>
                 </div>
 
                 <div class="w-1/2 pr-2">
                     <div class="aspect-square overflow-hidden">
-                        <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-5.jpg">
+                        <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-5.jpg">
                     </div>
                 </div>
 
                 <div class="w-1/2 pl-2">
                     <div class="aspect-square overflow-hidden">
-                        <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-6.jpg">
+                        <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-6.jpg">
                     </div>
                 </div>
             </div>

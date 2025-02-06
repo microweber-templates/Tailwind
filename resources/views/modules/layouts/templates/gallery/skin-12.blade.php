@@ -1,4 +1,4 @@
-{{-- 
+{{--
 type: layout
 name: Gallery 12
 position: 12
@@ -28,7 +28,7 @@ categories: Gallery
         <div class="flex flex-wrap">
             <div class="w-full md:w-3/12 lg:w-2/12 flex items-start lg:items-center order-3 lg:order-1 my-0 lg:my-24">
                 <div class="aspect-square w-full overflow-hidden">
-                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-2.jpg"/>
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-2.jpg"/>
                 </div>
             </div>
 
@@ -36,12 +36,12 @@ categories: Gallery
                 <div class="flex flex-wrap">
                     <div class="w-full md:w-9/12 flex items-center">
                         <div class="w-full h-[300px] mb-6 overflow-hidden">
-                            <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-7.jpg"/>
+                            <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-7.jpg"/>
                         </div>
                     </div>
                     <div class="w-full md:w-3/12 flex items-end">
                         <div class="aspect-square w-full mb-6 overflow-hidden">
-                            <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-6.jpg"/>
+                            <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-6.jpg"/>
                         </div>
                     </div>
                 </div>
@@ -49,12 +49,12 @@ categories: Gallery
                 <div class="flex flex-wrap">
                     <div class="w-full md:w-3/12 flex items-start">
                         <div class="aspect-square w-full mb-6 overflow-hidden">
-                            <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-3.jpg"/>
+                            <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-3.jpg"/>
                         </div>
                     </div>
                     <div class="w-full md:w-9/12 flex items-center">
                         <div class="w-full h-[300px] mb-6 overflow-hidden">
-                            <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-4.jpg"/>
+                            <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-4.jpg"/>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ categories: Gallery
 
             <div class="w-full md:w-6/12 lg:w-3/12 flex items-center order-2 lg:order-3 ml-auto mb-6 lg:mb-0 my-0 lg:my-24">
                 <div class="aspect-square w-full overflow-hidden">
-                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-5.jpg"/>
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-5.jpg"/>
                 </div>
             </div>
         </div>

@@ -19,7 +19,7 @@ categories: Gallery
         <div class="flex flex-wrap justify-center text-center">
             <div class="w-full sm:w-5/12 md:w-3/12 mb-5 cloneable">
                 <div class="aspect-square overflow-hidden">
-                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-2.jpg"/>
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-2.jpg"/>
                 </div>
                 <div class="py-4 mt-auto">
                     <h5 class="mb-2 text-xl font-medium">Pictures In The Sky</h5>
@@ -29,7 +29,7 @@ categories: Gallery
 
             <div class="w-full sm:w-5/12 md:w-3/12 mb-5 cloneable">
                 <div class="aspect-square overflow-hidden">
-                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-3.jpg"/>
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-3.jpg"/>
                 </div>
                 <div class="py-4 mt-auto">
                     <h5 class="mb-2 text-xl font-medium">Radio Astronomy</h5>
@@ -39,7 +39,7 @@ categories: Gallery
 
             <div class="w-full sm:w-5/12 md:w-3/12 mb-5 cloneable">
                 <div class="aspect-square overflow-hidden">
-                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-4.jpg"/>
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-4.jpg"/>
                 </div>
                 <div class="py-4 mt-auto">
                     <h5 class="mb-2 text-xl font-medium">The Amazing Hubble</h5>
@@ -49,7 +49,7 @@ categories: Gallery
 
             <div class="w-full sm:w-5/12 md:w-3/12 mb-5 cloneable">
                 <div class="aspect-square overflow-hidden">
-                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-5.jpg"/>
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-5.jpg"/>
                 </div>
                 <div class="py-4 mt-auto">
                     <h5 class="mb-2 text-xl font-medium">Look Up In The Sky</h5>

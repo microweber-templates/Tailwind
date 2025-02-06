@@ -30,6 +30,9 @@ class TailwindServiceProvider extends BaseTemplateServiceProvider
         $this->registerConfig();
         $this->registerViews();
 
+        $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
+
+
     }
 
 }

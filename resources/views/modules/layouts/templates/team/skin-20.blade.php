@@ -85,7 +85,7 @@ $layout_classes = $layout_classes ?? ''; $layout_classes .= ' ' . $classes['padd
     <div class="mw-layout-container no-element edit" field="layout-team-skin-20-{{ $params['id'] }}" rel="module">
         <div class="row">
             <div class="col-lg-3 col-12 p-0">
-                <img class="about-image" loading="lazy" src="{{ asset('templates/big2/assets/img/layouts/gallery-1-4.jpg') }}"/>
+                <img class="about-image" loading="lazy" src="{{ asset('templates/big2/assets/img/layouts/gallery/gallery-1-4.jpg') }}"/>
             </div>
 
             <div class="col-lg-3 col-12 background-color-element element" style="background-color: #2b2b2b;">
