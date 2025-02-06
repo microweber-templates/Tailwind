@@ -15,7 +15,7 @@
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-              © <?php print date('Y'); ?> {{ powered_by_link() }} - All rights reserved
+              © <?php print date('Y'); ?> {!! powered_by_link() !!} - All rights reserved
           </span>
             <module type="social_links" template="footer" />
         </div>
