@@ -15,17 +15,17 @@ categories: Gallery
 <section class="section {{ $layout_classes }}">
     <module type="background" id="background-layout--{{ $params['id'] }}" />
     <module type="spacer" id="spacer-layout--{{ $params['id'] }}-top" />
-    <div class="mw-layout-container no-element container-fluid p-0 edit" field="layout-gallery-skin-24-{{ $params['id'] }}" rel="module">
-        <div class="row text-center">
-            <div class="col-sm-10 col-md-6 cloneable element p-0">
-                <div class="img-as-background square">
-                    <img loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-1.jpg"/>
+    <div class="w-full p-0 edit" field="layout-gallery-skin-24-{{ $params['id'] }}" rel="module">
+        <div class="flex flex-wrap justify-center text-center">
+            <div class="w-full sm:w-10/12 md:w-6/12 p-0 cloneable">
+                <div class="aspect-square overflow-hidden">
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-1.jpg"/>
                 </div>
             </div>
 
-            <div class="col-sm-10 col-md-6 cloneable element p-0">
-                <div class="img-as-background square">
-                    <img loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-2.jpg"/>
+            <div class="w-full sm:w-10/12 md:w-6/12 p-0 cloneable">
+                <div class="aspect-square overflow-hidden">
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-2.jpg"/>
                 </div>
             </div>
         </div>

@@ -15,7 +15,7 @@ categories: Gallery
 <section class="section {{ $layout_classes }}">
     <module type="background" id="background-layout--{{ $params['id'] }}" />
     <module type="spacer" id="spacer-layout--{{ $params['id'] }}-top" />
-    <div class="mw-layout-container no-element container-fluid edit" field="layout-gallery-skin-19-{{ $params['id'] }}" rel="module">
+    <div class="w-full px-4 edit" field="layout-gallery-skin-19-{{ $params['id'] }}" rel="module">
         <module type="pictures" template="skin-11"/>
     </div>
     <module type="spacer" id="spacer-layout--{{ $params['id'] }}-bottom" />

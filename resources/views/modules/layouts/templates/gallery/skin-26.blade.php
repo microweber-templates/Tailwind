@@ -15,8 +15,10 @@ categories: Gallery
 <section class="section {{ $layout_classes }}">
     <module type="background" id="background-layout--{{ $params['id'] }}" />
     <module type="spacer" id="spacer-layout--{{ $params['id'] }}-top" />
-    <div class="mw-layout-container no-element edit" field="layout-gallery-skin-26-{{ $params['id'] }}" rel="module">
-        <module type="layout_content" colMdCalculate="3" align="center"/>
+    <div class="container mx-auto px-4 edit" field="layout-gallery-skin-26-{{ $params['id'] }}" rel="module">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+            <module type="layout_content" colMdCalculate="3" align="center"/>
+        </div>
     </div>
     <module type="spacer" id="spacer-layout--{{ $params['id'] }}-bottom" />
 </section>

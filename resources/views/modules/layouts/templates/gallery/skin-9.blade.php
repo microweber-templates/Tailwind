@@ -12,9 +12,10 @@ categories: Gallery
     $layout_classes .= ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom'] . ' ';
 @endphp
 
-<section class="section mw-layout-overlay-wrapper {{ $layout_classes }}">
+<section class="section relative w-full {{ $layout_classes }}">
     <module type="background" id="background-layout--{{ $params['id'] }}" />
     <module type="spacer" id="spacer-layout--{{ $params['id'] }}-top" />
     <module type="slider_v2"/>
     <module type="spacer" id="spacer-layout--{{ $params['id'] }}-bottom" />
 </section>
+

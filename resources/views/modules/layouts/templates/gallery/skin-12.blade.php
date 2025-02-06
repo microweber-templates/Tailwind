@@ -15,54 +15,54 @@ categories: Gallery
 <section class="section {{ $layout_classes }}">
     <module type="background" id="background-layout--{{ $params['id'] }}" />
     <module type="spacer" id="spacer-layout--{{ $params['id'] }}-top" />
-    <div class="mw-layout-container no-element container edit" field="layout-gallery-skin-12-{{ $params['id'] }}" rel="module">
-        <div class="row text-center">
-            <div class="col-12 col-lg-10 col-lg-8 mx-auto mb-4">
-                <h3>
+    <div class="container mx-auto px-4 edit" field="layout-gallery-skin-12-{{ $params['id'] }}" rel="module">
+        <div class="flex flex-wrap justify-center text-center">
+            <div class="w-full lg:w-8/12 mx-auto mb-8">
+                <h3 class="text-3xl font-semibold">
                     An Awesome Title Related With This Great Images <br>
                     Ordered on Gallery
                 </h3>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12 col-md-3 col-lg-2 d-flex align-items-start align-items-lg-center order-3 order-lg-1 my-lg-6">
-                <div class="img-as-background square w-100">
-                    <img loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-2.jpg" class=""/>
+        <div class="flex flex-wrap">
+            <div class="w-full md:w-3/12 lg:w-2/12 flex items-start lg:items-center order-3 lg:order-1 my-0 lg:my-24">
+                <div class="aspect-square w-full overflow-hidden">
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-2.jpg"/>
                 </div>
             </div>
 
-            <div class="col-12 col-lg-7 mx-auto order-1 order-lg-2">
-                <div class="row">
-                    <div class="col-md-9 d-flex align-items-center">
-                        <div class="img-as-background w-100 h-300 mb-6">
-                            <img loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-7.jpg" class=""/>
+            <div class="w-full lg:w-7/12 mx-auto order-1 lg:order-2">
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-9/12 flex items-center">
+                        <div class="w-full h-[300px] mb-6 overflow-hidden">
+                            <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-7.jpg"/>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex align-items-end">
-                        <div class="img-as-background square w-100 mb-6">
-                            <img loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-6.jpg" class=""/>
+                    <div class="w-full md:w-3/12 flex items-end">
+                        <div class="aspect-square w-full mb-6 overflow-hidden">
+                            <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-6.jpg"/>
                         </div>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-3 d-flex align-items-start">
-                        <div class="img-as-background square w-100 mb-6">
-                            <img loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-3.jpg" class=""/>
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-3/12 flex items-start">
+                        <div class="aspect-square w-full mb-6 overflow-hidden">
+                            <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-3.jpg"/>
                         </div>
                     </div>
-                    <div class="col-md-9 d-flex align-items-center">
-                        <div class="img-as-background w-100 h-300 mb-6">
-                            <img loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-4.jpg" class=""/>
+                    <div class="w-full md:w-9/12 flex items-center">
+                        <div class="w-full h-[300px] mb-6 overflow-hidden">
+                            <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-4.jpg"/>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center order-2 order-lg-3 ms-auto mb-6 mb-lg-0 my-lg-6">
-                <div class="img-as-background square w-100">
-                    <img loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-5.jpg" class=""/>
+            <div class="w-full md:w-6/12 lg:w-3/12 flex items-center order-2 lg:order-3 ml-auto mb-6 lg:mb-0 my-0 lg:my-24">
+                <div class="aspect-square w-full overflow-hidden">
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery-1-5.jpg"/>
                 </div>
             </div>
         </div>

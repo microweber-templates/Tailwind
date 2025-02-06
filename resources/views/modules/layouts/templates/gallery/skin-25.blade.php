@@ -15,14 +15,14 @@ categories: Gallery
 <section class="section {{ $layout_classes }}">
     <module type="background" id="background-layout--{{ $params['id'] }}" />
     <module type="spacer" id="spacer-layout--{{ $params['id'] }}-top" />
-    <div class="mw-layout-container no-element container-fluid edit" field="layout-gallery-skin-25-{{ $params['id'] }}" rel="module">
-        <div class="col-md-10 mx-md-auto mb-5 cloneable px-0">
-            <div class="mx-auto mb-5 d-lg-flex justify-content-between">
-                <div class="col-lg-6">
-                    <h1 class="mb-3" style="font-size: 64px;">My Best Captured</h1>
+    <div class="w-full px-4 edit" field="layout-gallery-skin-25-{{ $params['id'] }}" rel="module">
+        <div class="w-full md:w-10/12 mx-auto mb-20 cloneable">
+            <div class="mx-auto mb-20 lg:flex lg:justify-between">
+                <div class="w-full lg:w-6/12">
+                    <h1 class="mb-3 text-6xl">My Best Captured</h1>
                 </div>
 
-                <div class="col-lg-4 pt-lg-4">
+                <div class="w-full lg:w-4/12 lg:pt-4">
                     <p>I wanted to tell a story on the street. And while often in magazines the act of walking is portrayed in a stereotyped and frankly boring way, this is where looking to the future is for me.</p>
                 </div>
             </div>
