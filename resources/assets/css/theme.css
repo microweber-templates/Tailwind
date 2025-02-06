@@ -2,6 +2,18 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-
 }
 
+.form-control {
+    @apply block w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:border-blue-500;
+}
+
+.btn {
+    @apply px-4 py-2 text-white bg-blue-500 rounded-lg;
+}
+.btn-primary {
+    @apply bg-blue-500;
+}
+.btn-secondary {
+    @apply bg-gray-500;
+}

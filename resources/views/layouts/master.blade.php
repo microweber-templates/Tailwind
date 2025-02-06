@@ -9,20 +9,18 @@
 
     {!! meta_tags_head() !!}
 
-   {{-- @if(!lang_is_rtl())
+    @if(!lang_is_rtl())
         <link rel="stylesheet" href="{{ asset('templates/tailwind/dist/build/theme.css') }}">
     @else
 
         <link rel="stylesheet" href="{{ asset('templates/tailwind/dist/build/theme-rtl.css') }}">
-    @endif--}}
+    @endif
 
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
 </head>
 
 <body class="{!! helper_body_classes() !!}">
-
-
 
     @include('templates.tailwind::header')
 
