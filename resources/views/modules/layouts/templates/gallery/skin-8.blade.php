@@ -19,13 +19,13 @@ categories: Gallery
         <div class="flex flex-wrap justify-center text-center">
             <div class="w-full sm:w-10/12 md:w-6/12 px-4 mb-8 cloneable">
                 <div class="aspect-square overflow-hidden">
-                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-2.jpg"/>
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/blue/gallery-2.jpg"/>
                 </div>
             </div>
 
             <div class="w-full sm:w-10/12 md:w-6/12 px-4 mb-8 cloneable">
                 <div class="aspect-square overflow-hidden">
-                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-3.jpg"/>
+                    <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/blue/gallery-3.jpg"/>
                 </div>
             </div>
         </div>

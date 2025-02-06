@@ -22,7 +22,7 @@ categories: Gallery
                     <div class="w-full sm:w-10/12 md:w-6/12 mx-auto mb-20 cloneable">
                         <div class="h-full flex flex-col">
                             <div class="aspect-square overflow-hidden">
-                                <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-1.jpg"/>
+                                <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/blue/gallery-1.jpg"/>
                             </div>
                             <div class="py-4">
                                 <p class="text-gray-600">For most of us, it's a curiosity, an amusement to see what they say our day will be like based.</p>
@@ -33,7 +33,7 @@ categories: Gallery
                     <div class="w-full sm:w-10/12 md:w-6/12 mx-auto mt-0 md:mt-36 mb-20 cloneable">
                         <div class="h-full flex flex-col">
                             <div class="aspect-square overflow-hidden">
-                                <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/gallery-1-2.jpg"/>
+                                <img class="w-full h-full object-cover" loading="lazy" src="{{ template_url() }}img/layouts/gallery/blue/gallery-2.jpg"/>
                             </div>
                             <div class="py-4">
                                 <p class="text-gray-600">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner.</p>
