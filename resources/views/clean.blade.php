@@ -10,13 +10,8 @@ description: Clean
 
 @section('content')
 
-
-<div>
-
-    Clean
-
-</div>
-
-
+    <div class="edit" data-layout-container rel="content" field="content">
+        <module type="layouts" template="clean" />
+    </div>
 
 @endsection
