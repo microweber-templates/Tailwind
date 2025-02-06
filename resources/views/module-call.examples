@@ -8,6 +8,20 @@ if you want to add module social links with specific style you can use the follo
 <module type="social_links" template="bootstrap4" />
 Template path must look like this:
 YOUR_TEMPLATE/resources/views/modules/social_links/templates/bootstrap4.blade.php
+Variables in template example:
+<div class="mw-social-links">
+    @if($facebook_enabled)
+        <a href="{{ $facebook_url }}" target="_blank">
+            @svg('modules.social_links-facebook')
+        </a>
+    @endif
+
+    @if($x_enabled)
+        <a href="{{ $x_url }}" target="_blank">
+            @svg('modules.social_links-x')
+        </a>
+    @endif
+</div>
 
 
 
