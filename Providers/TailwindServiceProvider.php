@@ -17,7 +17,7 @@ class TailwindServiceProvider extends BaseTemplateServiceProvider
      */
     public function boot(): void
     {
-        
+
     }
 
 
