@@ -2,5 +2,5 @@
 
 return [
     'name' => 'Tailwind',
- //   'parent_template' => 'Big2'
+    'parent_template' => 'Big2'
 ];

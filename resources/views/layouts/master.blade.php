@@ -9,6 +9,10 @@
 
     {!! meta_tags_head() !!}
 
+    <link rel="stylesheet" href="{{ asset('templates/tailwind/dist/build/bootstrap-classes.css') }}">
+    <link rel="stylesheet" href="{{ asset('templates/tailwind/dist/build/buttons.css') }}">
+
+
     @if(!lang_is_rtl())
         <link rel="stylesheet" href="{{ asset('templates/tailwind/dist/build/theme.css') }}">
     @else
