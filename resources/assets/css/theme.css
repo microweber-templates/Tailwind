@@ -1,18 +1,181 @@
-@plugin "daisyui" ;
 @import 'tailwindcss'  source('../../views');
-@source '../../../Big2/resources/views';
 @import "./bootstrap-classes.css";
 @import "./buttons.css";
 @import "./grid-only.css";
 @import "./pagination.css";
+@plugin "daisyui" ;
+@import "../../../../Big2/resources/assets/templates_features/css/scss/styles-for-template.css"
+@import "../../../../Big2/resources/assets/design-styles/design-styles.css"
 
 body {
     font-family: 'Nunito', sans-serif;
 }
 
-.form-control {
-    @apply block w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:border-blue-500;
+html {
+    @apply scroll-smooth;
 }
 
+h1 {
+    @apply text-4xl font-bold text-gray-900;
+}
 
+h2 {
+    @apply text-3xl font-semibold text-gray-800;
+}
+
+h3 {
+    @apply text-2xl font-medium text-gray-700;
+}
+
+h4 {
+    @apply text-xl font-medium text-gray-600;
+}
+
+h5 {
+    @apply text-lg font-medium text-gray-600;
+}
+
+h6 {
+    @apply text-base font-medium text-gray-600;
+}
+
+p {
+    @apply text-base text-gray-700 leading-relaxed;
+}
+
+a {
+    @apply text-blue-600 hover:text-blue-800 underline;
+}
+
+strong {
+    @apply font-semibold text-gray-900;
+}
+
+em {
+    @apply italic;
+}
+
+small {
+    @apply text-sm text-gray-500;
+}
+
+blockquote {
+    @apply border-l-4 border-gray-300 pl-4 italic text-gray-700;
+}
+
+ul {
+    @apply list-disc list-inside;
+}
+
+ol {
+    @apply list-decimal list-inside;
+}
+
+li {
+    @apply text-gray-700;
+}
+
+code {
+    @apply bg-gray-100 px-1 py-0.5 rounded text-red-600 font-mono text-sm;
+}
+
+pre {
+    @apply bg-gray-900 text-gray-100 p-4 rounded-md overflow-x-auto;
+}
+
+table {
+    @apply w-full border-collapse border border-gray-300;
+}
+
+th, td {
+    @apply border border-gray-300 px-4 py-2;
+}
+
+th {
+    @apply bg-gray-100 font-semibold;
+}
+
+tr:nth-child(even) {
+    @apply bg-gray-50;
+}
+
+button {
+    @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600;
+}
+
+input, textarea, select {
+    @apply border border-gray-300 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
+textarea {
+    @apply resize-none;
+}
+
+fieldset {
+    @apply border border-gray-300 p-4 rounded;
+}
+
+legend {
+    @apply font-semibold text-gray-700;
+}
+
+hr {
+    @apply border-t border-gray-300 my-4;
+}
+
+img {
+    @apply max-w-full h-auto rounded;
+}
+
+figure {
+    @apply my-4;
+}
+
+figcaption {
+    @apply text-center text-sm text-gray-500 mt-2;
+}
+
+mark {
+    @apply bg-yellow-200 text-black px-1;
+}
+
+details {
+    @apply bg-gray-100 p-2 rounded cursor-pointer;
+}
+
+summary {
+    @apply font-semibold text-gray-700 cursor-pointer;
+}
+
+dialog {
+    @apply bg-white shadow-lg p-6 rounded-md border border-gray-300;
+}
+
+meter {
+    @apply w-full;
+}
+
+progress {
+    @apply w-full h-2 bg-gray-300 rounded-full;
+}
+
+abbr {
+    @apply underline decoration-dotted cursor-help;
+}
+
+del {
+    @apply line-through text-gray-500;
+}
+
+ins {
+    @apply underline text-green-600;
+}
+
+sub {
+    @apply text-sm align-sub;
+}
+
+sup {
+    @apply text-sm align-super;
+}
 
