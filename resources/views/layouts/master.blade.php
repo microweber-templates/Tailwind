@@ -22,6 +22,7 @@
 
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
+
 </head>
 
 <body class="{!! helper_body_classes() !!}">
@@ -37,4 +38,7 @@
     <script src="{{ asset('templates/tailwind/dist/build/theme.js') }}"></script>
 
     {!! meta_tags_footer() !!}
+    <script>
+         mw.top().app?.strictMode(true);
+    </script>
 </body>
