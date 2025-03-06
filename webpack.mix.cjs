@@ -18,10 +18,15 @@ mix.webpackConfig({
 mix
     .js('resources/assets/js/theme.js', 'resources/assets/dist/build')
     .css('resources/assets/css/theme.css', 'resources/assets/dist/build')
+
     .css('../Big2/resources/assets/templates_features/css/scss/styles-for-template.css', 'resources/assets/dist/build')
     .css('../Big2/resources/assets/design-styles/design-styles.css', 'resources/assets/dist/build')
     .sass('../Big2/resources/assets/css/main.scss', 'resources/assets/dist/build')
 
+    .css('../../packages/microweber-filament-theme/resources/assets/css/microweber/buttons.css', 'resources/assets/dist/build')
+    .css('../../packages/microweber-filament-theme/resources/assets/css/microweber/grid-only.css', 'resources/assets/dist/build')
+    .css('../../packages/microweber-filament-theme/resources/assets/css/microweber/pagination.css', 'resources/assets/dist/build')
+    .css('../../packages/microweber-filament-theme/resources/assets/css/microweber/bootstrap-classes.css', 'resources/assets/dist/build')
 
 
 mix.after(() => {

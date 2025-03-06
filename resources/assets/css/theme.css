@@ -1,9 +1,6 @@
-@import 'tailwindcss'  source('../../views');
-@import "./bootstrap-classes.css";
-@import "./buttons.css";
-@import "./grid-only.css";
-@import "./pagination.css";
-@plugin "daisyui" ;
+@import 'tailwindcss'  source('../../views')
+
+/*@plugin "daisyui" ;*/
 
 html {
     @apply scroll-smooth;
