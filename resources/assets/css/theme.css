@@ -4,8 +4,8 @@
 @import "./grid-only.css";
 @import "./pagination.css";
 @plugin "daisyui" ;
-@import "../../../../Big2/resources/assets/templates_features/css/scss/styles-for-template.css"
-@import "../../../../Big2/resources/assets/design-styles/design-styles.css"
+/*@import "../../../../Big2/resources/assets/templates_features/css/scss/styles-for-template.css";*/
+/*@import "../../../../Big2/resources/assets/design-styles/design-styles.css";*/
 
 body {
     font-family: 'Nunito', sans-serif;
