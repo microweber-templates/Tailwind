@@ -26,7 +26,7 @@ mix
     .css('../../packages/microweber-filament-theme/resources/assets/css/microweber/buttons.css', 'resources/assets/dist/build')
     .css('../../packages/microweber-filament-theme/resources/assets/css/microweber/grid-only.css', 'resources/assets/dist/build')
     .css('../../packages/microweber-filament-theme/resources/assets/css/microweber/pagination.css', 'resources/assets/dist/build')
-    .css('../../packages/microweber-filament-theme/resources/assets/css/microweber/bootstrap-classes.css', 'resources/assets/dist/build')
+    .css('../../packages/microweber-filament-theme/resources/assets/css/microweber/bootstrap-classes.css', 'resources/assets/dist/build');
 
 
 mix.after(() => {
