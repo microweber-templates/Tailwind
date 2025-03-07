@@ -1,5 +1,6 @@
 @import 'tailwindcss'  source('../../views');
 
+@import '../../../../../packages/microweber-filament-theme/resources/assets/css/microweber/shared-styles-for-template.css';
 /*@plugin "daisyui" ;*/
 
 html {
