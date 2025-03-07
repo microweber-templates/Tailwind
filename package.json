@@ -6,6 +6,7 @@
         "dev": "npx mix watch"
     },
     "devDependencies": {
+        "@tailwindcss/postcss": "^4.0.11",
         "@tailwindcss/typography": "^0.5.16",
         "axios": "^1.7.7",
         "copy-webpack-plugin": "^12.0.2",
@@ -14,9 +15,11 @@
         "fs-extra": "^11.2.0",
         "laravel-mix": "^6.0.49",
         "mini-css-extract-plugin": "^2.9.2",
-        "postcss": "^8.5.1",
+        "postcss": "^8.5.3",
+        "postcss-custom-properties": "^14.0.4",
         "postcss-import": "^16.1.0",
         "postcss-loader": "~3.0.0",
+        "postcss-nested": "^7.0.2",
         "postcss-preset-env": "^10.1.0",
         "postcss-scss": "^4.0.9",
         "resolve-url-loader": "^5.0.0",
@@ -28,7 +31,6 @@
         "webpack-remove-empty-scripts": "^1.0.4"
     },
     "dependencies": {
-        "@tailwindcss/postcss": "^4.0.0",
         "bootstrap": "^5.3.3",
         "tailwindcss": "^4.0.0"
     }
