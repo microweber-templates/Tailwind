@@ -3,10 +3,10 @@
 /*
 
 type: layout
-content_type: static
-name: Contact Us
-position: 6
-description: Contact Us
+content_type: dynamic
+name: Blog
+position: 3
+description: Blog
 
 */
 
@@ -17,7 +17,7 @@ description: Contact Us
 @section('content')
 
     <div class="edit main-content" data-layout-container rel="content" field="content">
-        <module type="layouts" template="titles/skin-4"/>
-        <module type="layouts" template="content/skin-4"/>
+        <module type="layouts" template="blog/skin-4"/>
+
     </div>
 @endsection
