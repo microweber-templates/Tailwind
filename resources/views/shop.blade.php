@@ -13,19 +13,14 @@ position: 4
 ?>
 
 @extends('templates.big2::layouts.master')
-
 @section('content')
-<div class="edit" rel="content" field="content">
-    <module type="layouts" template="content/skin-6"/>
-</div>
 
+    <section class="py-5 container">
+        <module type="shop" />
+    </section>
 
-<section class="py-5 container">
-    <module type="shop" />
-</section>
-
-<div class="edit" rel="content" field="shop-after-content">
-    <p class="element"></p>
-</div>
+    <div class="edit" rel="content" field="shop-after-content">
+        <p class="element"></p>
+    </div>
 
 @endsection
