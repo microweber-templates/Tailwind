@@ -39,6 +39,6 @@
 
     {!! meta_tags_footer() !!}
     <script>
-         mw.top().app?.strictMode(true);
+     //    mw.top().app?.strictMode(true);
     </script>
 </body>
