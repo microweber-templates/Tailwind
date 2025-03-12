@@ -22,6 +22,7 @@
         <module type="layouts" template="features/skin-4"/>
         <module type="layouts" template="content/skin-2"/>
         <module type="layouts" template="features/skin-3"/>
+        <module type="layouts" template="content/skin-11"/>
         <module type="layouts" template="blog/skin-1"/>
         <module type="layouts" template="content/skin-13-mirror"/>
         <module type="layouts" template="design/skin-8"/>
