@@ -12,7 +12,7 @@ position: 4
 
 ?>
 
-@extends('templates.big2::layouts.master')
+@extends('templates.tailwind::layouts.master')
 @section('content')
 
     <section class="py-5 container">
