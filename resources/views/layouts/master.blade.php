@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="{{ asset('templates/tailwind/dist/build/theme-rtl.css') }}">
     @endif
 
-{{--    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>--}}
+
 
 
 </head>
