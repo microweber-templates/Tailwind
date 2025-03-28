@@ -19,9 +19,9 @@ mix
     .js('resources/assets/js/theme.js', 'resources/assets/dist/build')
     .css('resources/assets/css/theme.css', 'resources/assets/dist/build')
 
-  .css('../Big2/resources/assets/templates_features/css/scss/styles-for-template.css', 'resources/assets/dist/build')
-    .css('../Big2/resources/assets/design-styles/design-styles.css', 'resources/assets/dist/build')
-    .sass('../Big2/resources/assets/css/main.scss', 'resources/assets/dist/build')
+  .css('resources/assets/templates_features/css/scss/styles-for-template.css', 'resources/assets/dist/build')
+    .css('resources/assets/design-styles/design-styles.css', 'resources/assets/dist/build')
+    .sass('resources/assets/css/main.scss', 'resources/assets/dist/build')
 
 
 mix.after(() => {

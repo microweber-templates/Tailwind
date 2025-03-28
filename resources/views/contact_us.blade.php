@@ -12,7 +12,7 @@ description: Contact Us
 
 
 ?>
-@extends('templates.big2::layouts.master')
+@extends('templates.tailwind::layouts.master')
 
 @section('content')
 
