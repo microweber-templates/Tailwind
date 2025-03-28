@@ -6,6 +6,8 @@ use Tests\TestCase;
 
 class LayoutsRenderTest extends TestCase
 {
+    public $template_name = 'Tailwind';
+
     public function testRender()
     {
 
